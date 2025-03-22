@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: bor;
+}
+.menu {
+display: flex;
+justify-content: space-between;
+font-family: url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap);;
+font-size: 25px;
+background-color: #3750B3 ;
+background-size: 1920px;
+
+}
+
+.hero {
+align-content: center;    
+justify-content: center;
+
+}
+
+
+
