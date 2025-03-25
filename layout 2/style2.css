@@ -1,0 +1,38 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    font-family: url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap);;
+    font-size: 25px;
+    background-color: #c2c6d2 ;
+    background-size: 1920px;`
+}
+
+.hero {
+    display: flex;
+}
+.foto-esquerda   {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 26px;
+    height: 779px;
+    width: 793px;
+    top: 174px;
+    left: 120px;
+    padding: 88px;
+
+}
+
+.foto-direita   {
+
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 26px;
+    height: 779px;
+    width: 793px;
+    top: 174px;
+    left: 1007px;
+    padding: 88px;
+
+}

@@ -2,23 +2,24 @@
 *{
     padding: 0px;
     margin: 0px;
-    box-sizing: bor;
+    box-sizing: border-box;
 }
 .menu {
 display: flex;
 justify-content: space-between;
 font-family: url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap);;
-font-size: 25px;
+font-size: 32px;
 background-color: #3750B3 ;
 background-size: 1920px;
 
-}
 
-.hero {
-align-content: center;    
-justify-content: center;
+
 
 }
+
+
+
+
 
 
 
