@@ -24,14 +24,15 @@
     /* usado para aplicar apenas para os P do cabecalho */
 
     color: white;
-    margin-right: 10px;
+    margin-right: 20px;
     /* coloca uma margem a direita */
 
 }
 
 .right {
     display: flex;
-    margin-right: 10vw;
+    margin-right: 60px;
+    justify-content: space-between;
 }
 
 .left {
@@ -39,30 +40,24 @@
     /* coloca uma margem a esquerda */
 }
 
-.caixa-da-image {
+
+.tela {
     display: flex;
+}
+
+.esquerda {
+
+    display: flex;
+    margin-left: 10px;
+
+}
+
+.direita {
+    display: flex;
+    margin-right: 110px;
+    align-items: center;
     justify-content: center;
-    width: 100vw;
-}
-
-.caixa-da-image img
-{
-    width: 80vw;
-}
-
-.textos{
-    font-size: 2vw;
-    margin-left: 10vw;
-    margin-top: 100px;
-
-}
-
-.h1 {
-    font-size: 64px;
-}
-
-.textos p {
-   
-    font-size: 32px;
+    flex-direction: column;
+    
 
 }

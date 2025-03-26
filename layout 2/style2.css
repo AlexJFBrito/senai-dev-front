@@ -1,38 +1,61 @@
-.menu {
+* {
+    padding: 0px;
+    /* zerando a distancia */
+    margin: 0px;
+    /* zerando a margem */
+    box-sizing: border-box;
+    /* define o formato de espaçamento */
+}
+
+.cabecalho {
+
+    width: 100vw;
+    /* 100% da horizontal */
+    height: 71px;
+    background-color: #3750b3;
     display: flex;
+    /* coloca um texto ao lado do outro */
     justify-content: space-between;
-    font-family: url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap);;
-    font-size: 25px;
-    background-color: #c2c6d2 ;
-    background-size: 1920px;`
+    /* coloca os elementos nos cantos */
+    align-items: center;
 }
 
-.hero {
+.cabecalho p {
+    /* usado para aplicar apenas para os P do cabecalho */
+
+    color: white;
+    margin-right: 20px;
+    /* coloca uma margem a direita */
+
+}
+
+.right {
     display: flex;
-}
-.foto-esquerda   {
-    display:flex;
-    justify-content:center;
-    align-items: center;
-    margin-bottom: 26px;
-    height: 779px;
-    width: 793px;
-    top: 174px;
-    left: 120px;
-    padding: 88px;
-
+    margin-right: 60px;
+    justify-content: space-between;
 }
 
-.foto-direita   {
-
-    display:flex;
-    justify-content:center;
-    align-items: center;
-    margin-bottom: 26px;
-    height: 779px;
-    width: 793px;
-    top: 174px;
-    left: 1007px;
-    padding: 88px;
-
+.left {
+    margin-left: 10vw;
+    /* coloca uma margem a esquerda */
 }
+
+.caixa-da-image {
+    display: flex;
+    justify-content: center;
+    width: 100vw; 
+    margin-left: 5vw;
+    
+}
+
+.caixa-da-image img{
+
+    padding-right: 100px;
+}
+
+.textos{
+    font-size: 2vw;
+    margin-left: 10vw;
+    margin-top: 100px;
+    
+    }
